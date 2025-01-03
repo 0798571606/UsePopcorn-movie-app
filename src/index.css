@@ -17,17 +17,16 @@
 }
 
 html {
-  font-size: 55%;
+  font-size: 62.5%;
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
-    Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 
   color: var(--color-text);
   background-color: var(--color-background-900);
   padding: 2.4rem;
-  overflow: hidden;
 }
 
 /* ******* */
@@ -55,8 +54,7 @@ body {
   max-width: 42rem;
   background-color: var(--color-background-500);
   border-radius: 0.9rem;
-  overflow: auto;
-  scrollbar-width: none;
+  overflow: scroll;
   position: relative;
 }
 
@@ -140,7 +138,7 @@ body {
 .list {
   list-style: none;
   padding: 0.8rem 0;
-  /* overflow: scroll; */
+  overflow: scroll;
 }
 
 .list-watched {
@@ -347,16 +345,4 @@ SPACING SYSTEM (px)
 
 FONT SIZE SYSTEM (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 /52 / 62 / 74 / 86 / 98
-*/
-
-/*
-FULL STAR
-
-
-
-
-EMPTY STAR
-
-
-
 */
